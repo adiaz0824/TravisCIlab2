@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: cJz2NgXA36cZriGC5/tfETlnIKTb3v3lJI3T5jR3aEls1BPe6Ivo0N7TIBdXf6q4lg8WAc1IBMiJWgvngk7G4YXHU0oQy3PGmp7UtCj1zzg2B2Y9SEO+dF4y2XJls2NW5z0Fu1pA5jyxyBS+v/JAYGHjyaKjXORjEaj1y+NeEwQ=
-  app: travis-test-app
+  app: desolate-eyrie-4882
   run:
     - "rake db:migrate"
     - restart
